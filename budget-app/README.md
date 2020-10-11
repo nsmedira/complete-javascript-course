@@ -1,3 +1,12 @@
+# Budget App
+
+## What you will learn
+
+- How to use the module pattern
+- Private vs public data
+- Encapsulation
+- Separation of concerns
+
 # Project Planning
 
 - Add event handler
@@ -26,3 +35,21 @@
 ## Controller Module
 
 - Add even thandler
+
+# Notes
+
+## Immediately Invoked Function Expression
+
+Allows us to have data privacy because it creates a new scope that is not available from the outside scope.
+
+## Module pattern
+
+A module should return an object that contains all the functions that we want available from the outside scope.
+
+## Closures
+
+An inner function always has access to its outer functions variables and functions, even after the outer function has returned.
+
+## Separation of concerns
+
+Each part of our application should be designed to perform only one task.
